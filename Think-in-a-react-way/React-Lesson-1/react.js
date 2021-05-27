@@ -1,4 +1,4 @@
-const domContainer = document.querySelector('#root')
+const domContainer = document.querySelector('.container')
 
 const myElement = React.createElement(
     'div',null,
@@ -7,6 +7,4 @@ const myElement = React.createElement(
 
 )
 
-console.log(React)
-console.log(ReactDOM)
 ReactDOM.render(myElement,domContainer)
